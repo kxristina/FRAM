@@ -103,3 +103,50 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+
+     .navbar {
+        padding: 16px;
+        min-height: 68px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-btn i,
+    .menu-btn {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .intro {
+        height: calc(100vh - 68px);
+        max-height: 600px;
+    }
+
+    .intro-title {
+        font-size: 75px;
+    }
+
+    .overlay-content {
+        top: 50%;
+    }
+
+   .tagline {
+        font-size: 24px;
+        text-transform: none;
+
+        width: 320px;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .divider {
+        height: 250px;
+        width: 1px;
+    }
+
+
+}
