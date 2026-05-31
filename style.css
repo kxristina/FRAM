@@ -142,11 +142,14 @@
     margin-bottom: 10px;
 }
 
-.subtitle {
+.card p {
     font-family: "Frank Ruhl Libre", serif;
     font-weight: 300;
     font-style: light;
     font-size: 20px;
+}
+
+.subtitle {
     margin-bottom: 50px;
 }
 
@@ -154,11 +157,6 @@
     max-width: 500px;
 
     margin: 40px 0;
-
-    font-family: "Frank Ruhl Libre", serif;
-    font-weight: 300;
-    font-style: light;
-    font-size: 20px;
 }
 
 .card img {
@@ -253,14 +251,13 @@
 
     .card h3 {
         font-size: 24px;
+        line-height: 24px;
     }
 
-    .subtitle {
+    .card p {
         font-size: 16px;
-    }
-
-    .description {
-        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0;
     }
 
     button {
