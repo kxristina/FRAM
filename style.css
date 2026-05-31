@@ -696,7 +696,7 @@ PRODUCE PAGE
 
 .produce-page {
     background: #F7F2DE;
-    padding: 60px 30px;
+    
 }
 
 .produce-header {
@@ -715,6 +715,7 @@ PRODUCE PAGE
 .produce-intro {
     max-width: 500px;
     margin-bottom: 50px;
+    padding: 60px 30px 0px 30px;
 }
 
 .produce-intro h2 {
@@ -735,12 +736,81 @@ PRODUCE PAGE
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 0px 30px;
 }
 
 
 .product-card {
     width: calc(33.333% - 14px);
 }
+
+
+/* PARTNERING FARMS */
+
+.partnering-farms {
+  display: flex;
+
+  min-height: 100vh;
+
+  background: #F7F2DE;
+
+  border-top: 1px solid #0B0A08;
+
+  padding: 0;
+}
+
+/* Left Column */
+
+.title-farms {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+
+  border-right: 1px solid #0B0A08;
+}
+
+.title-farms h3 {
+    font-family: "Arimo", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+
+    max-width: 377px;
+}
+
+/* Right Column */
+
+.map {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+
+
+
+.input-wrapper {
+  display: flex;
+  width: 300px;
+}
+
+.input-wrapper input {
+  flex: 1;
+}
+
+
+
 
 @media (max-width: 768px) {
 
@@ -764,5 +834,27 @@ PRODUCE PAGE
             max-height: 279px;
 
     }
+
+     .partnering-farms {
+    flex-direction: column;
+  }
+
+  /* TITLE */
+
+  .title-farms {
+    min-height: 200px;
+
+    padding: 90px 0px 45px 0px;
+
+    border-right: none;
+    border-bottom: 1px solid #0B0A08;
+  }
+
+  .title-farms h3 {
+    font-size: 24px;
+    max-width: 240px;
+  }
+
+  
 
 }
