@@ -104,7 +104,9 @@
     text-align: center;
 }
 
+
 /* SELECTION PAGE */
+
 
 .container {
     background-color: #FFFFFF;
@@ -187,6 +189,107 @@
 
     padding: 10px 16px;
 }
+
+/* HOW IT WORKS */
+
+/* Outer container */
+
+.how-it-works {
+  display: flex;
+
+  min-height: 100vh;
+
+  background: #F7F2DE;
+
+  border-top: 1px solid #0B0A08;
+}
+
+/* Left Column */
+
+.title-panel {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 489px;
+
+  padding: 40px;
+
+  border-right: 1px solid #0B0A08;
+}
+
+.title-panel h3 {
+    font-family: "Arimo", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+
+    max-width: 320px;
+}
+
+/* Right Column */
+
+.steps {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  flex: 1;
+
+  display: flex;
+
+  border-bottom: 1px solid #333;
+
+}
+
+.step h4 {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0px 0px 0px 100px;
+
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.content {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 3rem;
+}
+
+.content p {
+  max-width: 500px;
+
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
+.content a {
+  margin-top: 25px;
+
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  color: #0B0A08B3;
+
+  }
 
 /* MOBILE */
 
