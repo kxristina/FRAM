@@ -212,7 +212,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 489px;
 
   padding: 40px;
 
@@ -243,7 +242,7 @@
 
   display: flex;
 
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #0B0A08;
 
 }
 
@@ -267,8 +266,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  padding: 3rem;
 }
 
 .content p {
@@ -363,7 +360,7 @@
         letter-spacing: 0;
     }
 
-    button {
+    .card button {
         width: 100%;
         max-width: 330px;
     }
@@ -372,4 +369,42 @@
         height: 250px;
     }
 
+    /* HOW IT WORKS */
+
+    .how-it-works {
+    flex-direction: column;
+  }
+
+  /* TITLE */
+
+  .title-panel {
+    min-height: 200px;
+
+    padding: 90px 0px 45px 0px;
+
+    border-right: none;
+    border-bottom: 1px solid #0B0A08;
+  }
+
+  .title-panel h3 {
+    font-size: 24px;
+    max-width: 240px;
+  }
+
+  /* STEPS */
+
+  .step {
+    flex-direction: column;
+
+    gap: 24px;
+    padding: 45px
+  }
+
+  .step h4 {
+    font-size: 18px;
+    align-items: flex-start;
+    padding: 0px;
+  }
+
 }
+
