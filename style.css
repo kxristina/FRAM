@@ -104,55 +104,10 @@
     text-align: center;
 }
 
-@media (max-width: 768px) {
-
-     .navbar {
-        padding: 16px;
-        min-height: 68px;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .menu-btn i,
-    .menu-btn {
-        font-size: 32px;
-        line-height: 1;
-    }
-
-    .intro {
-        height: calc(100vh - 68px);
-        max-height: 600px;
-    }
-
-    .intro-title {
-        font-size: 75px;
-    }
-
-    .overlay-content {
-        top: 50%;
-    }
-
-   .tagline {
-        font-size: 24px;
-        text-transform: none;
-
-        width: 320px;
-        max-width: 90vw;
-        margin: 0 auto;
-    }
-
-    .divider {
-        height: 250px;
-        width: 1px;
-    }
-
-}
-
 /* SELECTION PAGE */
 
 .container {
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -233,4 +188,88 @@
     border-radius: 8px;
 
     padding: 10px 16px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+     .navbar {
+        padding: 16px;
+        min-height: 68px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-btn i,
+    .menu-btn {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .intro {
+        height: calc(100vh - 68px);
+        max-height: 600px;
+    }
+
+    .intro-title {
+        font-size: 75px;
+    }
+
+    .overlay-content {
+        top: 50%;
+    }
+
+   .tagline {
+        font-size: 24px;
+        text-transform: none;
+
+        width: 320px;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .divider {
+        height: 250px;
+        width: 1px;
+    }
+
+    /* SELECTION PAGE */
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card:first-child {
+        border-right: none;
+        border-bottom: 1px solid #0B0A08;
+    }
+
+    .card {
+        padding: 60px 20px;
+    }
+
+    .card h3 {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .card img {
+        height: 250px;
+    }
+
 }
